@@ -2,6 +2,11 @@ export interface IAppState{
     networks: Array<INetwork>,
     stations: IStation[],
 }
+export interface IMain{
+    start: number,
+    end: number,
+}
+
 export interface INetwork {
     company: string[]
     href: string
